@@ -164,12 +164,12 @@ That was it, the basics. You even created a neural net all by yourself and made 
 Some useful resources for further reading
 
 *    Learn more about Colab [here](https://colab.research.google.com/notebooks/welcome.ipynb)
-    TensorFlow website [here](https://www.tensorflow.org/)
-    TensorFlow docs [here](https://github.com/tensorflow/docs)
-    GitHub repository [here](https://github.com/tensorflow/tensorflow)
-    A wonderful Neural Nets research paper [here](https://www.sciencedirect.com/science/article/abs/pii/S0893608014002135)
-    A wonderful visualization tool by TensorFlow [here](http://projector.tensorflow.org/)
-    TensorFlow models and data sets [here](https://www.tensorflow.org/resources/models-datasets)
+*    TensorFlow website [here](https://www.tensorflow.org/)
+*    TensorFlow docs [here](https://github.com/tensorflow/docs)
+*    GitHub repository [here](https://github.com/tensorflow/tensorflow)
+*    A wonderful Neural Nets research paper [here](https://www.sciencedirect.com/science/article/abs/pii/S0893608014002135)
+*    A wonderful visualization tool by TensorFlow [here](http://projector.tensorflow.org/)
+*    TensorFlow models and data sets [here](https://www.tensorflow.org/resources/models-datasets)
 
 Some TensorFlow research papers
 
