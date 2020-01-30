@@ -3,6 +3,7 @@
 This same blog is availaible on Medium [here](https://medium.com/@rishit.dagli/get-started-with-tensorflow-and-deep-learning-part-1-72c7d67f99fc)
 
 ![](https://miro.medium.com/max/1860/1*zRbqakEO9WX43jKCGWCJHg.jpeg)
+<p align="center">Source: cognitiveclass.ai</p>
 
 This is the first part of a series where I will be posting many blog posts about coding Machine Learning and Deep Learning algorithms. I believe in hands-on coding so we will have many exercises and demos which you can try yourself too. I would recommend you to play around with these exercises and change the hyper-parameters and experiment with the code. That is the best way to learn and code efficiently. If you don’t know what hyper-parameters are don’t worry. We will walk through Tensor Flow’s core capabilities and then also explore high level API’s in TensorFlow and so on.
 
@@ -41,10 +42,12 @@ Coding has been the bread and butter for developers since the dawn of computing.
 We can represent that with this diagram. Rules and data go in answers come out. Rules are expressed in a programming language and data can come from a variety of sources from local variables up to databases. Machine learning rearranges this diagram where we put answers in data in and then we get rules out. So instead of us as developers figuring out the rules when should the brick be removed, when should the player’s life end, or what’s the desired analytic for any other concept, what we will do is we can get a bunch of examples for what we want to see and then have the computer figure out the rules.
 
 ![](https://miro.medium.com/max/514/1*-yqcaIQ-6-BkmzKOSLr-MQ.jpeg)
+<p align="center">Traditional Programming vs Machine Learning</p>
 
 So consider this example, activity recognition. If I’m building a device that detects if somebody is say walking and I have data about their speed, I might write code like this and if they’re running well that’s a faster speed so I could adapt my code to this and if they’re biking, well that’s not too bad either. I can adapt my code like this. But then I have to do golf recognition too, now my concept becomes broken. But not only that, doing it by speed alone of course is quite naive. We walk and run at different speeds uphill and downhill and other people walk and run at different speeds to us.
 
 ![](https://miro.medium.com/max/609/1*rEc6QCVlvMuH2lSuxvJRUQ.jpeg)
+<p align="center">A traditional programming logic</p>
 
 The new paradigm is that I get lots and lots of examples and then I have labels on those examples and I use the data to say this is what walking looks like, this is what running looks like, this is what biking looks like and yes, even this is what golfing looks like. So, then it becomes answers and data in with rules being inferred by the machine. A machine learning algorithm then figures out the specific patterns in each set of data that determines the distinctiveness of each. That’s what’s so powerful and exciting about this programming paradigm. It’s more than just a new way of doing the same old thing. It opens up new possibilities that were infeasible to do before.
 
@@ -109,7 +112,8 @@ If you have used Jupyter before you will find Colab easy to use. If you have not
 
 Introduction to Google Colab
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/inN8seMm7UI/0.jpg)](https://www.youtube.com/watch?v=inN8seMm7UI)
+[![](https://img.youtube.com/vi/inN8seMm7UI/0.jpg)](https://www.youtube.com/watch?v=inN8seMm7UI)
+<p align="center">Introduction to Google Colab</p>
 
 Now you know how to use Colab so let’s get started.
 
@@ -134,6 +138,7 @@ Make a new Colab Notebook and write your solution for this exercise and try it w
 Wonderful, you just created a neural net all by yourself and some of you must be feeling like this (it’s perfectly ok)-
 
 ![](https://miro.medium.com/max/205/1*quYL8J2gCxGucV1yeNQnVw.jpeg)
+<p align="center">Source: me.me</p>
 
 Let’s see my solution to this.
 
