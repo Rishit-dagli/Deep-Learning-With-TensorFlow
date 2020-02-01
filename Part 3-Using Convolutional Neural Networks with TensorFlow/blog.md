@@ -403,7 +403,8 @@ So, all you had to do was play around the code and get this done in just 7 epoch
 <p align="center">My output</p>
 
 The solution notebook is available [here](https://github.com/Rishit-dagli/Deep-Learning-With-TensorFlow-Blog-series/blob/master/Part%203-Using%20Convolutional%20Neural%20Networks%20with%20TensorFlow/Excercise2_solution.ipynb)
-About Me
+
+## About Me
 
 Hi everyone I am Rishit Dagli
 
