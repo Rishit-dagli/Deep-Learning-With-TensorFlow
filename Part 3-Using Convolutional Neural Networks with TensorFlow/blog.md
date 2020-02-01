@@ -1,7 +1,6 @@
 # Part 3-Using Convolutional Neural Networks with TensorFlow
 
-This same blog is availaible on Medium [here](https://medium.com/@rishit.dagli/
-using-convolutional-neural-networks-with-tensorflow-part-3-35de28a5621)
+This same blog is availaible on Medium [here](https://medium.com/@rishit.dagli/using-convolutional-neural-networks-with-tensorflow-part-3-35de28a5621)
 
 ![](https://miro.medium.com/max/1860/1*zRbqakEO9WX43jKCGWCJHg.jpeg)
 <p align="center">Source: cognitiveclass.ai</p>
