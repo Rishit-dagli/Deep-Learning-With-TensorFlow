@@ -199,8 +199,9 @@ less than 784 over all pixels in. Training should be faster, but is there a swee
 
 ## Hands on with CNN
 
-You can find the notebook used by me here. Again, you can download the notebook if you are using a local environment and if 
-you are using Colab, you can cllick on opeen in colab button.
+You can find the notebook used by me [here](https://github.com/Rishit-dagli/Deep-Learning-With-TensorFlow-Blog-series/blob/master/Part%203-Using%20Convolutional%20Neural%20Networks%20with%20TensorFlow/CNN_with_Fashion_MNIST_Notebook.ipynb).
+Again, you can download the notebook if you are using a local environment and if 
+you are using Colab, you can cllick on `open in colab` button.
 
 This is a really nice way to improve our image recognition performance. Let’s now look at it in action using a notebook. 
 Here’s the same neural network that you used before for loading the set of images of clothing and then classifying them. 
@@ -223,7 +224,9 @@ this is happening on each epoch. So it might take a few minutes instead of a few
 To remedy this what you can do is use a GPU. How to do that in Colab?
 
 All you need to do is `Runtime > Change Runtime Type > GPU`. A single layer would now take approximately 5–6 seconds.
-Output with the Convolutions and max poolings
+
+![](https://miro.medium.com/max/835/1*vwaKOlFtlcT0yxzqMvVcpA.jpeg)
+<p align="center">Output with the Convolutions and max poolings</p>
 
 Now that it’s done, you can see that the loss has improved a little it’s 0.25 now. 
 In this case, it’s brought our accuracy up a bit for both our test data and with our training data. That’s pretty cool, right?
@@ -264,38 +267,122 @@ There are some exercises at the bottom of the notebook check them out.
 
 We will create a little pooling algorithm, so you can visualize its impact. 
 There’s a notebook that you can play with too, and I’ll step through that here. 
-Here’s the notebook for playing with convolutions here. It does use a few Python 
-libraries that you may not be familiar with such as `cv2`. It also has Matplotlib that we used before. 
+Here’s the notebook for playing with convolutions [here](). It does use a few Python 
+libraries that you may not be familiar with such as `cv2`. It also has `Matplotlib` that we used before. 
 If you haven’t used them, they’re really quite intuitive for this task and they’re very very easy to learn. 
-So first, we’ll set up our inputs and in particular, import the misc library from SciPy. 
-Now, this is a nice shortcut for us because misc.ascent returns a nice image that we can play with, 
+So first, we’ll set up our inputs and in particular, import the misc library from `SciPy`. 
+Now, this is a nice shortcut for us because `misc.ascent` returns a nice image that we can play with, 
 and we don’t have to worry about managing our own.
 
-Matplotlib contains the code for drawing an image and it will render it right in the browser with Colab. Here, we can see the ascent image from SciPy. Next up, we’ll take a copy of the image, and we’ll add it with our homemade convolutions, and we’ll create variables to keep track of the x and y dimensions of the image. So we can see here that it’s a 512 by 512 image. So now, let’s create a convolution as a three by three array. We’ll load it with values that are pretty good for detecting sharp edges first. Here’s where we’ll create the convolution.
+`Matplotlib` contains the code for drawing an image and it will render it right in the browser with Colab. 
+Here, we can see the ascent image from `SciPy`. 
+Next up, we’ll take a copy of the image, and we’ll add it with our homemade convolutions, 
+and we’ll create variables to keep track of the `x` and `y` dimensions of the image. 
+So we can see here that it’s a 512 by 512 image. 
+So now, let’s create a convolution as a three by three array. 
+We’ll load it with values that are pretty good for detecting sharp edges first. 
+Here’s where we’ll create the convolution.
 
-We then iterate over the image, leaving a one pixel margin. You’ll see that the loop starts at one and not zero, and it ends at size x minus one and size y minus one. In the loop, it will then calculate the convolution value by looking at the pixel and its neighbors, and then by multiplying them out by the values determined by the filter, before finally summing it all up.
-Vertical line filter
+We then iterate over the image, leaving a one pixel margin. 
+You’ll see that the loop starts at one and not zero, and it ends at size x minus one and size y minus one. 
+In the loop, it will then calculate the convolution value by looking at the pixel and its neighbors, and then by multiplying them out by the values determined by the filter, 
+before finally summing it all up.
 
-Let’s run it. It takes just a few seconds, so when it’s done, let’s draw the results. We can see that only certain features made it through the filter. I’ve provided a couple more filters, so let’s try them. This first one is really great at spotting vertical lines. So when I run it, and plot the results, we can see that the vertical lines in the image made it through. It’s really cool because they’re not just straight up and down, they are vertical in perspective within the perspective of the image itself. Similarly, this filter works well for horizontal lines. So when I run it, and then plot the results, we can see that a lot of the horizontal lines made it through. Now, let’s take a look at pooling, and in this case, Max pooling, which takes pixels in chunks of four and only passes through the biggest value. I run the code and then render the output. We can see that the features of the image are maintained, but look closely at the axes, and we can see that the size has been halved from the 500’s to the 250's.
-With pooling
-Excercise 3
+![](https://miro.medium.com/max/310/1*J7rEGoDz_20EIZiKFtwAtw.jpeg)
+<p align="center">Vertical line filter</p>
 
-Now you need to apply this to MNIST Handwrting recognition we will revisit that from last blog post. You need to improve MNIST to 99.8% accuracy or more using only a single convolutional layer and a single MaxPooling 2D. You should stop training once the accuracy goes above this amount. It should happen in less than 20 epochs, so it’s ok to hard code the number of epochs for training, but your training must end once it hits the above metric. If it doesn’t, then you’ll need to redesign your layers.
+Let’s run it. 
+It takes just a few seconds, so when it’s done, let’s draw the results. We can see that only certain features made it 
+through the filter. I’ve provided a couple more filters, so let’s try them. This first one is really great at spotting vertical lines. So when I run it, and plot the results, we can see that the vertical lines in the image made it through. 
+It’s really cool because they’re not just straight up and down, they are vertical in perspective within the perspective 
+of the image itself. Similarly, this filter works well for horizontal lines. So when I run it, and then plot the results, 
+we can see that a lot of the horizontal lines made it through. Now, let’s take a look at pooling, and in this case, 
+Max pooling, which takes pixels in chunks of four and only passes through the biggest value. I run the code and then 
+render the output. We can see that the features of the image are maintained, but look closely at the axes, 
+and we can see that the size has been halved from the 500’s to the 250's.
 
-When 99.8% accuracy has been hit, you should print out the string “Reached 99.8% accuracy so cancelling training!”. Yes this is just optional (You can also print out something like “I’m getting bored and won’t train any more” 🤣)
+![](https://miro.medium.com/max/302/1*loH--AXE8LPMjBnoS8cIYQ.jpeg)
+<p align="center">With pooling</p>
 
-The question notebook is available — here
-My Solution
+## Excercise 3
+
+Now you need to apply this to MNIST Handwrting recognition we will revisit that from last blog post. 
+You need to improve MNIST to 99.8% accuracy or more using only a single convolutional layer and a single MaxPooling 2D. 
+You should stop training once the accuracy goes above this amount. 
+It should happen in less than 20 epochs, so it’s ok to hard code the number of epochs for training, 
+but your training must end once it hits the above metric. 
+If it doesn’t, then you’ll need to redesign your layers.
+
+When 99.8% accuracy has been hit, you should print out the string “Reached 99.8% accuracy so cancelling training!”. 
+Yes, this is just optional (You can also print out something like “I’m getting bored and won’t train any more” 🤣)
+
+The question notebook is available — [here](https://github.com/Rishit-dagli/Deep-Learning-With-TensorFlow-Blog-series/blob/master/Part%203-Using%20Convolutional%20Neural%20Networks%20with%20TensorFlow/Excercise2_question.ipynb)
+
+## My Solution
 
 Wonderful! 😃 , you just coded for a handwriting recognizer with a 99.8% accuracy (that’s good) in less than 20 epochs. Let explore my solution for this.
-My solution
 
-The callback class (This is the simplest)
+```python
+def train_mnist_conv():
+    # Please write your code only where you are indicated.
+    # please do not remove model fitting inline comments.
 
-class myCallback(tf.keras.callbacks.Callback):  def on_epoch_end(self, epoch, logs={}):    if(logs.get('acc')>0.998):      print("/n Reached 99.8% accuracy so cancelling training!")      self.model.stop_training = True
+    # YOUR CODE STARTS HERE
+    class myCallback(tf.keras.callbacks.Callback):
+        def on_epoch_end(self, epoch, logs={}):
+            if(logs.get('acc')>0.998):
+                print("/n Reached 99.8% accuracy so cancelling training!")
+                self.model.stop_training = True
+    # YOUR CODE ENDS HERE
 
-The main CNN code
+    mnist = tf.keras.datasets.mnist
+    (training_images, training_labels), (test_images, test_labels) = mnist.load_data()
+    # YOUR CODE STARTS HERE
+    callbacks = myCallback()
+    
+    training_images=training_images.reshape(60000, 28, 28, 1)
+    test_images=test_images.reshape(10000, 28, 28, 1)
+    training_images = training_images / 255.0
+    test_images = test_images / 255.0
+    # YOUR CODE ENDS HERE
 
+    model = tf.keras.models.Sequential([
+            # YOUR CODE STARTS HERE
+            tf.keras.layers.Conv2D(64, (3,3), activation='relu', input_shape=(28, 28, 1)),
+            tf.keras.layers.MaxPooling2D(2, 2),
+            tf.keras.layers.Flatten(),
+            tf.keras.layers.Dense(256, activation='relu'),
+            tf.keras.layers.Dense(10, activation='softmax')
+            # YOUR CODE ENDS HERE
+    ])
+
+    model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
+    # model fitting
+    history = model.fit(
+        # YOUR CODE STARTS HERE
+        training_images,
+        training_labels,
+        epochs = 20,
+        callbacks=[callbacks]
+        # YOUR CODE ENDS HERE
+    )
+    # model fitting
+    return history.epoch, history.history['acc'][-1]
+```
+
+### The callback class (This is the simplest)
+
+```python
+class myCallback(tf.keras.callbacks.Callback):  
+  def on_epoch_end(self, epoch, logs={}):    
+    if(logs.get('acc')>0.998):      
+      print("/n Reached 99.8% accuracy so cancelling training!")      
+    self.model.stop_training = True
+```
+
+### The main CNN code
+
+```python
 training_images=training_images.reshape(60000, 28, 28, 1)
     test_images=test_images.reshape(10000, 28, 28, 1)
     training_images = training_images / 255.0
@@ -309,11 +396,14 @@ training_images=training_images.reshape(60000, 28, 28, 1)
             tf.keras.layers.Dense(10, activation='softmax')
             # YOUR CODE ENDS HERE
     ])
+```
 
 So, all you had to do was play around the code and get this done in just 7 epochs.
-My output
 
-The solution notebook is available here
+![](https://miro.medium.com/max/1284/1*ufQX2FjBxlC4CdUhnbwGPg.jpeg)
+<p align="center">My output</p>
+
+The solution notebook is available [here](https://github.com/Rishit-dagli/Deep-Learning-With-TensorFlow-Blog-series/blob/master/Part%203-Using%20Convolutional%20Neural%20Networks%20with%20TensorFlow/Excercise2_solution.ipynb)
 About Me
 
 Hi everyone I am Rishit Dagli
@@ -324,6 +414,6 @@ Website — rishitdagli.ml
 
 If you want to ask me some questions, report any mistake, suggest improvements, give feedback you are free to do so via the chat box on the website or by mailing me at —
 
-    hello@rishitdagli.ml
-    rishit.dagli@gmail.com
+*    hello@rishitdagli.ml
+*    rishit.dagli@gmail.com
 
