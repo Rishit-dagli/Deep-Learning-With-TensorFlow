@@ -1,20 +1,9 @@
-### Using Convolutional Neural Networks with TensorFlow
+# Using Convolutional Neural Networks with TensorFlow
 
 The same blog is availaible on Medium [here](https://medium.com/@rishit.dagli/using-convolutional-neural-networks-with-tensorflow-part-3-35de28a5621)
 
 ![](https://cdn-images-1.medium.com/max/2560/1*I0ZiW4IFjXp8LVgB37qqXA.jpeg)
 <span class="figcaption_hack">Source: Cognitiveclass.ai</span>
-
-### Table of contents
-
-1.  [Get started with TensorFlow and Deep
-Learning](https://medium.com/@rishit.dagli/get-started-with-tensorflow-and-deep-learning-part-1-72c7d67f99fc)
-1.  [Computer Vision with
-TensorFlow](https://medium.com/@rishit.dagli/computer-vision-with-tensorflow-part-2-57e95cd0551)
-1.  [Using Convolutional Neural Networks with
-TensorFlow](https://medium.com/@rishit.dagli/using-convolutional-neural-networks-with-tensorflow-part-3-35de28a5621)
-1.  [Extending what Convolutional Neural Nets can
-do](https://medium.com/@rishit.dagli/extending-what-convolutional-nets-can-do-251f3021529c)
 
 All the code used here is available in my GitHub repository
 [here](https://github.com/Rishit-dagli/Deep-Learning-With-TensorFlow-Blog-series/).
