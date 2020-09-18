@@ -7,7 +7,7 @@
 Consider leaving a :star: if you like this series of tutorials.
 
 This repo gets you started with Deep Learning with TensorFlow. This will be all about about coding Machine Learning and Deep Learning algorithms. I believe in hands-on coding 
-so we will have many exercises and demos which you can try yourself too. You would first have a blog to read to and have one or many JupyTer Notebooks which you can try and also 
+so we will have many exercises and demos which you can try yourself too. You would first have a blog to read to and have one or many Jupyter Notebooks which you can try and also 
 have excercises which you can do. These blogs are also availaible as a blog series on [Medium](http://bit.ly/dlwithtf).
 
 > More parts coming soon!
