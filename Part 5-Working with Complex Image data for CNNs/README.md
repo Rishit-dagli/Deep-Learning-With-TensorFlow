@@ -1,6 +1,8 @@
 
 ## Working with Complex Image data for CNNs
 
+The same blog is avaliaible on Medium [here](https://medium.com/@rishit.dagli/working-with-complex-image-data-for-cnns-187fb4526893)
+
 ![Source: Cognitiveclass.ai](https://cdn-images-1.medium.com/max/2800/0*WG6jpFkgDy2dtAzB.jpeg)
 
 ## Table of contents
