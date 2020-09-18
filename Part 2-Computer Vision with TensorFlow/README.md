@@ -1,4 +1,4 @@
-# Part 2-Computer Vision with TensorFlow
+# Computer Vision with TensorFlow
 
 This same blog is availaible on Medium [here](https://medium.com/@rishit.dagli/computer-vision-with-tensorflow-part-2-57e95cd0551)
 
