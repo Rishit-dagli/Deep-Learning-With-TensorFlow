@@ -1,4 +1,4 @@
-# Deep-Learning-With-TensorFlow-Tutorials
+# Deep-Learning-With-TensorFlow
 
 [![GitHub license](https://img.shields.io/github/license/Rishit-dagli/Deep-Learning-With-TensorFlow-Blog-series)](https://github.com/Rishit-dagli/Deep-Learning-With-TensorFlow-Blog-series/blob/master/LICENSE)
 ![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2FRishit-dagli%2FDeep-Learning-With-TensorFlow-Blog-series)
