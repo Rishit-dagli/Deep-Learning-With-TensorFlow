@@ -1,5 +1,7 @@
 ### Extending what Convolutional Neural Nets can do
 
+The same blog is avaliaible on Medium [here](https://medium.com/@rishit.dagli/extending-what-convolutional-nets-can-do-251f3021529c)
+
 ![](https://cdn-images-1.medium.com/max/2560/0*PYD4-tVKbHoRRMv_.jpeg)
 <span class="figcaption_hack">Source: Cognitiveclass.ai</span>
 
