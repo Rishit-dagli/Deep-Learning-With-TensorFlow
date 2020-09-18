@@ -1,4 +1,4 @@
-# Get started with TensorFlow and Deep Learning Part-1
+# Get started with TensorFlow and Deep Learning
 
 This same blog is availaible on Medium [here](https://medium.com/@rishit.dagli/get-started-with-tensorflow-and-deep-learning-part-1-72c7d67f99fc)
 
