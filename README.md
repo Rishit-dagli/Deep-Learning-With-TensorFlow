@@ -19,3 +19,7 @@ have excercises which you can do. These blogs are also availaible as a blog seri
 - [Using Convolutional Neural Networks with TensorFlow](https://github.com/Rishit-dagli/Deep-Learning-With-TensorFlow/tree/master/Part%203-Using%20Convolutional%20Neural%20Networks%20with%20TensorFlow)
 - [Extending what Convolutional Neural Nets can do](https://github.com/Rishit-dagli/Deep-Learning-With-TensorFlow/tree/master/Part%204-Extending%20what%20Convolutional%20Neural%20Nets%20can%20do)
 - [Working with Complex Image data for CNNs](https://github.com/Rishit-dagli/Deep-Learning-With-TensorFlow/tree/master/Part%205-Working%20with%20Complex%20Image%20data%20for%C2%A0CNNs)
+
+## Do you need any setup?
+
+No! You would not need any hardware or software setup to work your way around these tutorials, each of the notebooks have a button ![Open in Colab button](https://colab.research.google.com/assets/colab-badge.svg) which you can use to open it in [Google Colab](https://colab.research.google.com/) (We'll often refer to this as just Colab) right in your browser :rocket: . If you do not know about Google Colab head on to the [first part](https://github.com/Rishit-dagli/Deep-Learning-With-TensorFlow/tree/master/Part%201-Getting%20started%20with%20TensorFlow%20and%20Deep%20Learning) which also gives an intro about Colab.
