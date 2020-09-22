@@ -22,7 +22,7 @@ have excercises which you can do. These blogs are also availaible as a blog seri
 
 ## Do you need any setup?
 
-No! You would not need any hardware or software setup to work your way around these tutorials, each of the notebooks have a button ![Open in Colab button](https://colab.research.google.com/assets/colab-badge.svg) which you can use to open it in [Google Colab](https://colab.research.google.com/) (We'll often refer to this as just Colab) right in your browser :rocket: . If you do not know about Google Colab head on to the [first part](https://github.com/Rishit-dagli/Deep-Learning-With-TensorFlow/tree/master/Part%201-Getting%20started%20with%20TensorFlow%20and%20Deep%20Learning) which also gives an intro about Colab.
+No! You would not need any hardware or software setup to work your way around these tutorials, each of the notebooks have a button ![Open in Colab button](https://colab.research.google.com/assets/colab-badge.svg) which you can use to open it in [Google Colab](https://colab.research.google.com/) (We'll often refer to this as just Colab) right in your browser :rocket: . If you do not know about Google Colab head on to the [first part](https://github.com/Rishit-dagli/Deep-Learning-With-TensorFlow/tree/master/Part%201-Getting%20started%20with%20TensorFlow%20and%20Deep%20Learning) which also gives an intro about Colab. If you are more comfortable with using [Binder](https://mybinder.org/) you can use this button [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Rishit-dagli/Deep-Learning-With-TensorFlow/master) to open this repo in Binder.
 
 ## Why should you be learning this?
 
